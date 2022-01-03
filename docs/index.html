@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Portfolio Constanza Ramos</title>
 </head>
 
 <body>
@@ -68,17 +68,18 @@
     <footer class="contact" id="contact">
         <h2 class="h2-white">Contact</h2>
        <div class="contact-form">
-        <form action="https://formsubmit.co/c.ramosgamboa@gmail.com" method="POST">
+        <form class="form-container" action="https://formsubmit.co/c.ramosgamboa@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_subject" value="New email!">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email"  placeholder="Email" required>
-            <input type="text" name="message" placeholder="Write your message here" required>
-            <input type="hidden" name="_next" value="https://yourdomain.co/pages/thankyou.html">
-            <button type="submit">Send</button>
+            <input class="form" type="text" name="name" placeholder="Name" required>
+            <input class="form" type="email" name="email"  placeholder="Email" required>
+            <input class="form-text" type="text" name="message" placeholder="Write your message here" required>
+            <input type="hidden" name="_next" value="https://constanzaramos.github.io/pages/thankyou.html">
+            <button class="send" type="submit">Send</button>
        </form>
-       
-       
        </div>
+       <br>
+       <p style="font-size:20px;">© 2022 Created and Designed by Constanza Ramos. All rights reserved.</p>
     </footer>
 
     <script src="app.js"></script>

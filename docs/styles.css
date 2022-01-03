@@ -81,21 +81,27 @@ p {
 
 }
 
-.button {
+.button,.send{
     width: 200px;
     height: 55px;
+    border: none;
     border-radius: 40px;
-    background-color: coral;
+    background-color:#eeaa73;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+    color: white;
 }
 
 .button:hover {
-    background-color: #ef744b;
-
+    background-color: #eecb64;
+    color: white;
+}
+.send:hover {
+    background-color: #eecb64;
+    color: white;
 }
 
 .button:active {
@@ -157,7 +163,14 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
-    
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-text{
+        display: flex;
+        flex-wrap: wrap;
+    } 
 }
 
 .project-images{
@@ -179,3 +192,24 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.form{
+    height: 30px;
+    width: 500px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 350px;
+}
+
+.form-text{
+    height: 150px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
