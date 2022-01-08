@@ -9,8 +9,7 @@ body {
 
 section {
     height: 500px;
-    background-color: white;
-    
+    background-color: white;  
 }
 
 .hero {
@@ -60,7 +59,7 @@ h2{
 
 p {
     margin: 0;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
 }
 
@@ -81,7 +80,20 @@ p {
 
 }
 
-.button,.send{
+.button{
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 40px;
+    background-color:#eeaa73;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 25px;
+    color: white;
+    
+}
+.send{
     width: 200px;
     height: 55px;
     border: none;
@@ -137,7 +149,8 @@ p {
 .headshot{
     width: 300px;
     border-radius: 50%;
-    margin-bottom: 70%;
+    margin-bottom: 200px;
+    
     
 }
 
@@ -213,3 +226,12 @@ a{
     flex-wrap: wrap; 
 }
 
+.icons1{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+
+
+
+   
+}
